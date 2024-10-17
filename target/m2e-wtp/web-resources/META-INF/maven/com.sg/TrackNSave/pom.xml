@@ -15,7 +15,7 @@
       <scope>test</scope>
     </dependency>
     
-     <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+    <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
 	<dependency>
 	    <groupId>javax.servlet</groupId>
 	    <artifactId>javax.servlet-api</artifactId>
@@ -37,12 +37,13 @@
 	    <version>6.1.7.Final</version>
 	    <type>pom</type>
 	</dependency>
-    
+
+
+
   </dependencies>
-  
   <build>
   
-  	 <plugins>
+  <plugins>
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-war-plugin</artifactId>
